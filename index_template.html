@@ -12,8 +12,24 @@
 <nav class="navbar navbar-inverse">
 	<div class="container-fluid">
 		<div class="navbar-header">
-			<a href="#">{FORUM Name}</a>
+			<a class="navbar-brand" href="#">{FORUM Name}</a>
 		</div>
-		
+		<div class="container">
+			<div class="dropdown">
+				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
+				<span class="caret"></span></button>
+				<ul class="dropdown-toggle">
+					<li><a href="#">{MENU 1}</a></li>
+					<li><a href="#">{MENU 2}</a></li>
+					<li><a href="#">{MENU 3}</a></li>
+				</ul>
+			</div>
+		</div>
+		<form class="navbar-form nav-letf" action="/action_page.php">
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Search" name="search">
+				
+			</div>
+		</form>
 	</div>
 </nav>
